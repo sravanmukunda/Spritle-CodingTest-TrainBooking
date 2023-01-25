@@ -1,0 +1,23 @@
+.li {
+  padding: 32px;
+  margin: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.del-btn {
+  background-color: red;
+  width: 60px;
+  height: 23px;
+  color: #fff;
+  border-radius: 6px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.pwd {
+  margin-left: 10px;
+}

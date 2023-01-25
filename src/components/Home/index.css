@@ -1,0 +1,39 @@
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  border-radius: 12px;
+  width: 45%;
+  padding: 32px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Segoe UI";
+}
+
+.logo {
+  width: 100%;
+}
+
+.btn {
+  height: 23%;
+  width: 23%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
